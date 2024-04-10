@@ -1,0 +1,98 @@
+.App {
+  text-align: center;
+}
+
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .header-block {
+      display: flex;
+      align-items: center;
+  }
+  
+  .header {
+      text-transform: capitalize;
+      margin-right: 20px;
+      margin-left: 15px;
+  }
+
+  .btn {
+    padding: 2px 0 4px 0;
+    font-weight: 900;
+    font-size: larger;
+    border: 1px solid rgb(148, 148, 148);
+    border-radius: 50%;
+    background: white;
+    /* background: rgb(39, 39, 39); */
+    cursor: pointer;
+}
+  
+  .renew-btn {
+      width: 50px;
+      height: 50px;
+      font-size: 30px;
+      color: green;
+      
+  }
+
+  .notes-list-block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .note-block {
+    position: relative;
+  }
+  
+  .note-body {
+      width: 350px;
+      margin: 15px;
+      padding: 15px;
+      text-align: start;
+      border: 1px solid rgb(69, 69, 69);
+  }
+  
+  .delete-btn {
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      color: red;
+  }
+  
+  .new-note-block {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 15px;    
+  }
+  
+  .new-note-header {
+      text-transform: capitalize;
+  }
+  
+  .input-block {
+      position: relative;
+  }
+  
+  .new-note-body {
+      width: 350px;
+      min-height: 150px;
+      padding: 15px;
+      border: 1px solid rgb(69, 69, 69);    
+  }
+  
+  .add-btn {
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      position: absolute;
+      right: -20px;
+      bottom: -10px;
+      /* color:black; */
+  }
